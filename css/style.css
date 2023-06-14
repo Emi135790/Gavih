@@ -1,0 +1,250 @@
+/****************** Custom Propeties ******************/
+:root {
+    --first-color: #138b44;
+    --bg-alpha-color: hsla(0, 0%, 0%, 0.305);
+    --footer-color:rgb(52,53,53);
+    --nosotros-bg:rgb(240,237,235);
+    --textos-color:#999A97;
+    --titulos-color:#FD6D6C;
+    --service-bg-1:rgb(121,214,212);
+    --service-bg-2:rgb(50,66,74);
+    --service-bg-3:rgb(180,9,56);
+    --service-text:rgb(50, 67, 76);
+    --informe-bg:rgb(250,246,243);
+    --sarita-bg:rgb(158,195,63);
+    --sarita-text-bg:rgb(237,242,239);
+}
+
+/****************** Reset Styles     ******************/
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+a {
+    color: white;
+    transition: all .3s ease-out;
+    text-decoration: none;
+}
+
+/****************** Boostrap Styles  ******************/
+.navbar-brand img {
+    width: auto;
+    height: 4rem;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23138b44'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23138b44'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.dropdown-item {
+    color: var(--first-color);
+    font-weight: bold;
+    transition: all .3s ease-out;
+
+}
+.dropdown-item:hover {
+    color: var(--third-alpha-color);
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    transition: all .3s ease-out;
+}
+.navbar-dark .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2819, 139, 68, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    opacity: 0.75;
+}
+.nav-item {
+    transition: all .3s ease-out;
+}
+.nav-item:hover {
+    background-color: var(--sarita-bg);
+}
+
+.nav-link {
+    padding-left: .5rem;
+    color: black;
+    font-size: 1.35rem;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: var(--first-color);
+}
+.bi:hover{
+    color: var(--sarita-bg);
+}
+
+
+/******************    My styles     ******************/
+
+/* 
+.bg-color {
+    background-color: var(--bg-color);
+} */
+.bg-first{
+    background-color: var(--first-color);
+}
+.bg-alpha-color {
+    background-color: var(--bg-alpha-color);
+}
+/* .bg-third-color {
+    background: var(--third-color);
+} */
+.bg-service1{
+    background-color: var(--service-bg-1);
+}
+.bg-service2{
+    background-color: var(--service-bg-2);
+}
+.bg-service3{
+    background-color: var(--service-bg-3);
+}
+.bg-second-alpha-color{
+    background-color: var(--second-alpha-color);
+}
+.bg-footer-color{
+    background-color: var(--footer-color);
+}
+.bg-sarita{
+    background-color: var(--sarita-bg);
+}
+.bg-sarita-text{
+    background-color: var(--sarita-text-bg);
+}
+.bg-nosotros-color{
+    background-color: var(--nosotros-bg);
+}
+.bg-informe{
+    background-color: rgb(250,246,243);
+}
+/* .text-third {
+    color: var(--third-color);
+} */
+.text-first-color{
+    color: var(--first-color);
+}
+.text-service{
+    color: var(--service-text);
+}
+.textos-color{
+    color: var(--textos-color);
+}
+.titulos-color{
+    color: var(--titulos-color);
+}
+.bg-hero-image{
+    background-image: var(--bg-image);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+}
+
+.min-vh-50{
+    min-height: 70vh;
+}
+.img-size-logo{
+    width: 100px;
+}
+.img-size{
+    max-width: 450px;
+    width: 100%;
+}
+.img-size2{
+    max-width: 250px;
+    width: 100%;
+}
+.text-justify{
+    text-align: justify;
+}
+.btn-donar{
+    border: 1px solid #fff;
+    background: transparent;
+    color:  #fff;
+    border-radius: 15px;
+    padding: 10px;
+}
+.btn-donar:hover{
+    border: 1px solid var(--first-color);
+    background: var(--first-color);
+}
+.bi-heart-fill{
+    color: #fff;
+}
+.btn-donar:hover .bi-heart-fill{
+    color: #FD6D6C;
+}
+/**************** Slider ngos aliados *************/
+
+.slider {
+    width: 90vw;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider .slide-track {
+    border-top:2px solid rgb(221,220,220);
+    border-bottom:2px solid rgb(221,220,220);
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 40s linear infinite;
+    width: calc(200px * 14);
+}
+
+.slider .slide {
+    width: 200px;
+}
+
+.slider .slide img {
+    width: 100%;
+    padding-left:30px;
+}
+
+.contacto{
+    height: 40%;
+}
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        -webkit-transform: translateX(calc(-200px * 7));
+        transform: translateX(calc(-200px * 7));
+    }
+}
+/* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .contacto{
+        height: 25%;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .nav-item:hover {
+        background-color: transparent;
+    }
+    .slider {
+        width: 72vw;
+    }
+    
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
