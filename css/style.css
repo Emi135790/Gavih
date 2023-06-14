@@ -107,7 +107,7 @@ a {
     background-color: var(--second-alpha-color);
 }
 .bg-footer-color{
-    background-color: var(--footer-color);
+    background-color: var(--footer-color)!important;
 }
 .bg-sarita{
     background-color: var(--sarita-bg);
